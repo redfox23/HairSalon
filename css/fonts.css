@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "Yesteryear";
+	src: url(../fonts/Yesteryear-Regular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url(../fonts/Montserrat-Regular.eot);
+	src: url(../fonts/Montserrat-Regular.woff) format("woff");	
+	src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Raleway-Regular";
+	src: url(../fonts/Raleway-Regular.eot);
+	src: url(../fonts/Raleway-Regular.woff) format("woff");	
+	src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PTSerif";
+	src: url(../fonts/PTSerif.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Georgia";
+	src: url(../fonts/Georgia.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;

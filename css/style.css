@@ -1,0 +1,736 @@
+.main_navigation{
+	position: fixed;
+	background: #222222;
+	width: 300px;
+	padding: 30px;
+	height: 100%;
+}
+.img_logo{
+	margin-bottom: 70px;
+}
+.navi{
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+}
+.navi li{
+	display: block;
+	list-style: none;
+	margin-bottom: 30px;
+	background-image: url(../img/nav_line.png);
+	background-repeat-y: no-repeat;
+	background-position: center;
+}
+.navi a{
+font-family: "Montserrat-Regular";
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #222;
+	padding-right: 10px;
+}
+.navi a:active, .navi a:hover, .navi a:link{
+	color:#fab502;
+	text-decoration: none;
+}
+.navi_search{
+	margin-bottom: 10px;
+}
+.wrapper_search{
+	border-bottom: solid 1px #4e4e4e;
+}
+.navi_inpt{
+	font-size: 18px;
+	color:#fff;
+	font-family: "PTSerif";
+	background: none;
+	border: none;
+	display: inline-block;
+}
+.looking_glas{
+	background: none;
+	border: none;
+	display: inline-block;
+	color:#a0a0a0;
+}
+.navi_socials{
+	margin: 0;
+	padding: 0;
+}
+.navi_socials li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 25px;
+	background-color: #303030;
+	color:#fff;
+	padding-top: 7px;
+	text-align: center;
+	margin-right: 3px;
+	margin-top: 40px;
+}
+.navi_socials li:hover{
+	background-color: #fab502;
+}
+.navi_socials a{
+	color:#fff;
+}
+
+/*Main*/
+
+/****Slider****/
+.section_main{
+	margin-left: 300px;
+	/*background-color: #000;*/
+}
+.shopping_box{
+	position: fixed;
+	right: 0;
+	border:none;
+	background-color: #fff;
+	width: 85px;
+	height: 80px;	
+}
+.slider{
+	background-color: #000
+}
+.fashion{
+	font-family: "Yesteryear";
+	font-size: 62px;
+	display: block;
+	color:#fab502;
+	text-align: center;
+	padding-top: 200px;
+	margin-bottom: 25px;
+}
+.creative{
+	font-family: "Montserrat-Regular";
+	font-size: 66px;
+	text-transform: uppercase;
+	display: block;
+	color:#fff;
+	text-align: center;
+	margin-bottom: 37px;
+}
+.slider_line{
+	display: block;
+	margin: 0 auto;
+}
+.slider_buttons{
+	padding-top: 40px;
+	padding-bottom: 57px;
+}
+.slider_btn_discover{
+	font-family: "Montserrat-Regular";
+	text-transform: uppercase;
+	font-size: 14px;
+	background-color: #fab502;
+	border: 0;
+	color:#333333;
+	padding: 10px 0;
+	font-weight: bold;
+	margin-right: 7px;
+}
+.slider_btn_reservation{
+	font-family: "Montserrat-Regular";
+	text-transform: uppercase;
+	font-size: 14px;
+	background-color: #fff;
+	border: 0;
+	color:#333333;
+	padding: 10px 0;
+	font-weight: bold;
+}
+.our_services{
+	background-color: #f7f7f7;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.block_title{
+	text-transform: uppercase;
+	color:#333;
+	font-family: "Montserrat-Regular";
+	font-size: 26px;
+	font-weight: bold;
+}
+.block_title_txt{
+	font-size: 16px;
+	color:#777777;
+	text-align: center;
+	margin-top: 20px;	
+	margin-bottom: 90px;
+}
+.our_services_box{
+	background-color: #fff;
+	padding: 0 60px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.img_box{
+	margin-bottom: 40px;
+	display: block;
+	margin: 0 auto;
+}
+.services_box_title{
+	text-transform: capitalize;
+	color:#333;
+	font-family: "Montserrat-Regular";
+	font-size: 20px;
+	display: block;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.services_box_txt{
+	font-size: 14px;
+	color:#777;
+	text-align: center;
+	padding-bottom: 25px;
+	font-family: "Raleway-Regular";
+}
+.services_link{
+	text-transform: uppercase;
+	color:#fab502;
+	font-family: "Montserrat-Regular";
+	font-size: 13px;
+	display: block;	
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.main_who_we_are{
+	background-color: #000;
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.title_we_are{
+	font-size: 36px;
+	text-transform: uppercase;
+	color:#fab502;
+	font-family: "Montserrat-Regular";
+	font-weight: bold;
+}
+.wo_we_line{
+	display: inline-block;
+	vertical-align: text-top;
+}
+.txt_we_are{
+	font-size: 16px;
+	color:#fff;
+	font-family: "Raleway-Regular";
+	margin-top: 30px;
+}
+.btn_we_are_video{
+	background: none;
+	border: none;
+}
+.txt_video{
+	text-transform: uppercase;
+	color:#fff;
+	font-family: "Montserrat-Regular";
+	font-weight: bold;
+	font-size: 13px;
+	padding-left: 13px;
+}
+/****Block Lookbook****/
+.main_lookbook{
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+.menu_lookbook{
+	background-color: #fff;
+	padding: 10px 0;
+	margin: 0;
+
+}
+.menu_lookbook li{
+	list-style-type: none;
+	display: inline;
+	padding: 15px 25px;
+}
+.menu_lookbook li:hover{
+	background-color: #fab502;
+	color: #fff;	
+}
+.menu_lookbook a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	color:#999999;
+}
+.menu_lookbook li:hover>.menu_lookbook a{
+	color: #fff;	
+}
+.img_box_lookbook{
+	max-width: 390px;
+	max-height: 375px;
+}
+.wedding_makeup{
+	position: absolute;
+	bottom: 0;
+	background-color: #fff;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.wedding_makeup:before{
+	content: url('../img/orange_icon.png');
+	/*position: absolute;*/
+	display: block;
+	text-align: center;
+	margin-top: -33px;
+
+}
+.tit_wedding_makeup{
+	text-transform: uppercase;
+	color:#333;
+	font-family: "Montserrat-Regular";
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+}
+.makeup_wedding{
+	/*font-style: italic;*/
+	color:#999;
+	font-family: "PTSerif";
+	font-weight: italic;
+	font-size: 16px;
+	display: block;
+	text-align: center;	
+}
+.btn_lookbook_more{
+	display: block;
+	margin: 0 auto;
+	background: none;
+	text-transform: uppercase;
+	border: solid 2px #d6d6d6;
+	font-size: 13px;
+	color:#999999;
+	font-family: "Montserrat-Regular";
+	padding: 17px 90px;
+	margin-top: 40px;
+}
+/****Block Testimonials****/
+.main_testimonials{
+	background-color: #1d1d1d;
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+.testi_block_title{
+	color:#fff;
+}
+.testi_gallery{
+	margin-top: 50px;
+}
+.testi_person_icon{
+	padding-left: 15px;
+}
+.main_testi_quote{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.txt_testi{
+	/*display: inline-block;*/
+	text-align: center;
+	color:#fff;
+	font-size: 20px;
+	font-family: "Raleway-Regular";	
+}
+
+.testi_quote_left img{
+	display: block;
+	margin: 0 auto;
+}
+.testi_quote_right img{
+	display: block;
+	margin: 0 auto;
+}
+.testi_name{
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Montserrat-Regular";	
+	color:#fab502;
+	margin-bottom: 15px;
+}
+.testi_person_position{
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	font-family: "Montserrat-Regular";	
+	text-transform: uppercase;
+	color:#fff;
+}
+/****Block Pricing List****/
+.main_pricing_list{
+	background-color: #f7f7f7;
+}
+.pricing_list{
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.pricing_table{
+/*	background-color: #fff;*/
+/*	padding: 0 0;*/
+}
+.table_header{
+	background-color: #d8d8d8;
+	height: 230px;
+	padding: 0 0;
+}
+.table_title{
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(-45deg, transparent 25px, #fff 0) right, linear-gradient(40deg, transparent 25px, #fff 0) left;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	font-family: "Montserrat-Regular";
+	color:#777;
+	padding: 5px 0;
+	font-weight: bold;
+}
+.styling_fashion{
+	background-color: #fab502;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(-45deg, transparent 25px, #fab502 0) right, linear-gradient(40deg, transparent 25px, #fab502 0) left;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	font-family: "Montserrat-Regular";
+	color:#fff;
+	padding: 5px 0;
+	font-weight: bold;
+}
+.block_ring{
+	background-color: #fff;
+	position: absolute;
+	bottom: -2px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+.pricing_price{
+	font-size: 36px;
+	font-family: "Montserrat-Regular";
+	color:#fab502;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding-top: 60px;
+
+}
+.pricing_price:after{
+	content: " ";
+	background: url(../img/price_line.png);
+	display: block;
+	margin: 0 auto;
+	width: 42px;
+	height: 3px;
+	margin-bottom: -20px;
+}
+.wrapp_price_list{
+	background-color: #fff;
+	padding: 0 10px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.price_list{
+	text-align: center;
+	color:#777;
+	font-size: 14px;
+	font-family: "Raleway-Regular";	
+	padding: 15px 0;
+}
+.price_list:nth-child(odd){
+	background-color: #fbfbfb;
+}
+.btn_reserve_now{
+	background: #f0f0f0;
+	text-transform: uppercase;
+	border: none;
+	font-size: 13px;
+	font-family: "Montserrat-Regular";
+	color:#777;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	margin-top: 35px;
+}
+.btn_reserve_orange{
+	background: #fab502;	
+	color:#fff;
+}
+/****Counter****/
+.main_counter{
+	background-color: #1d1d1d;
+	padding: 130px 0;
+}
+.wrap_counter{
+	font-size: 56px;
+	color:#fff;
+	font-family: "Montserrat-Regular";
+	text-align: center;
+}
+.txt_wrap_counter{
+	font-size: 18px;
+	font-family: "Raleway-Regular";	
+}
+.counter_text:before{
+	display: block;
+	margin: 0 auto;
+	content: " ";
+	width: 43px;
+	height: 3px;
+	background-color: #fab502;
+	margin-top: 19px;
+	margin-bottom: 15px;
+}
+/****Creative Team****/
+.main_creative_team{
+	padding-top: 90px;
+	padding-bottom: 125px;
+	background-color: #f7f7f7;
+}
+.team_img_box{
+	background-color: #fff;
+	padding: 0 0;
+	margin: 0 15px;
+}
+.team_img{
+/*	max-width: 380px;
+	height: auto;*/
+	display: block;
+	margin: 0 auto;
+}
+.wrapp_info_team{
+	padding: 0 60px;
+	padding-top: 35px;
+	padding-bottom: 40px;
+	
+}
+.team_name{
+	font-size: 22px;
+	color:#333;
+	font-family: "Montserrat-Regular";
+	text-align: center;
+	display: block;
+}
+.team_name:after{
+	display: block;
+	margin: 0 auto;
+	content: " ";
+	width: 43px;
+	height: 3px;
+	background-color: #e5e5e5;
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+.team_position{	
+	font-size: 18px;
+	color:#fab502;
+	font-family: "Georgia";
+	text-align: center;
+	display: block;
+	font-style: italic;	
+}
+.team_txt{
+	font-size: 14px;
+	color:#777;
+	font-family: "Raleway-Regular";
+	text-align: center;
+	display: block;
+}
+.list_social_link{
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+.social_link{
+	width: 40px;
+	height: 40px;
+	background-color: #c5c5c5;
+	list-style: none;
+	display: inline-block;
+	border-radius: 25px;
+}
+.s_link i{
+	color:#ffffff;
+	text-align: center;
+	margin-top: 12px;
+}
+/****Online Reserve****/
+.main_reserve{
+	background-color: #1d1d1d;
+	padding-bottom: 110px;
+	padding-top: 130px;
+}
+.textForm{
+	color:#fff;
+	font-size: 16px;
+	font-family: "Raleway-Regular";
+	margin-top: 25px 0;
+}
+.reserve_form{
+	/*padding: 0 0;*/
+}
+.inmp{
+	font-size: 14px;
+	color:#777;
+	font-family: "Montserrat-Regular";
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 12px;
+	padding: 15px 0;
+	padding-left: 20px;
+}
+.bSubmit{
+	background-color: #fab502;
+	text-transform: uppercase;
+	border: none;
+	color:#333;
+	font-family: "Montserrat-Regular";
+	font-size: 14px;
+	padding: 10px 35px;
+	margin-top: 20px;
+}
+/*Our Clients*/
+.main_our_clients{
+	background-color: #f7f7f7;
+	padding: 110px 0;
+}
+/****Main Footer****/
+.main_footer{
+	background-color: #292929;
+	padding-top: 115px;
+}
+.footer_box{
+/*	padding: 0;*/
+}
+.footer_tit{
+	text-transform: uppercase;
+	color:#fff;
+	font-family: "Montserrat-Regular";
+	font-size: 14px;	
+}
+/****Footer 1 Box****/
+.footer_txt{
+	font-family: "Raleway-Regular";
+	color:#fff;
+	font-size: 14px;
+	margin-bottom: 40px;	
+}
+.footer_contact{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway-Regular";
+	color:#acacac;
+	font-size: 14px;
+	list-style: none;
+}
+.footer_contact li{
+	line-height: 2;	
+}
+.footer_contact_tit{
+	color:#fff;
+	font-weight: bold;
+	padding-right: 7px;	
+}
+/****Footer 2 Box****/
+.footer_tit_working{
+	position: absolute;
+	padding: 15px 10px;
+	background-color: #292929;
+	margin-top: -20px;
+	margin-left: 10px;
+}
+.footer_wrapp_line{
+	border: 2px solid #6a6a6a;
+	padding: 50px 20px;
+
+}
+.list_work_hours{/*режим работы*/
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color:#fff;
+	font-family: "Montserrat-Regular";
+	font-size: 13px;
+	font-weight: bold;
+}
+.list_work_hours li{
+	padding-bottom: 25px;
+}
+.list_work_hours li:last-child{
+	padding-bottom: 0px;
+}
+.footer_hour{
+	float:right;
+	right:0;
+}
+.ft_closed{
+	color:#fab502;
+}
+/****Footer 3 Box****/
+
+/****Footer 4 Box****/
+.ft_inmp{
+	background-color: #434343;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Montserrat-Regular";
+	font-size: 14px;
+	border: none;
+	margin-bottom: 15px;
+	padding: 18px 0;
+	padding-left: 10px;
+}
+.ft_inmp_message{
+	padding-bottom: 90px;
+}
+.ft-btn{
+	text-transform: uppercase;
+	color:#fff;
+	font-family: "Montserrat-Regular";
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #fab502;
+	border: none;
+	padding: 10px 25px;
+}
+/****footer_back****/
+.footer_back{
+	border-top: solid 1px #4e4e4e;
+	padding: 30px 0;
+	margin-top: 70px;
+}
+.ft_cr{
+	font-family: "Montserrat-Regular";
+	color:#fff;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.ft_menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-transform: uppercase;
+	font-family: "Montserrat-Regular";
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+}
+.ft_menu li{
+	display: inline-block;
+	padding-right: 28px;
+}
+.ft_menu a{
+	color:#fff;
+}
